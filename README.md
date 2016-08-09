@@ -1,2 +1,2 @@
 # prj_android
-map social
+map social 
