@@ -1,4 +1,0 @@
-include ':app'
-include ':map'
-include ':appbase'
-include ':utils'
