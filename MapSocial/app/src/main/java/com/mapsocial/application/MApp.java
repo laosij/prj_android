@@ -1,9 +1,14 @@
 package com.mapsocial.application;
 
 import android.graphics.Typeface;
+import android.util.Log;
 
 import com.baidu.mapapi.SDKInitializer;
 import com.gy.appbase.application.BaseApplication;
+import com.gy.utils.log.LogUtils;
+import com.hyphenate.chat.EMClient;
+import com.hyphenate.chat.EMOptions;
+import com.hyphenate.easeui.controller.EaseUI;
 
 /**
  * Created by ganyu on 2016/8/3.
@@ -19,5 +24,11 @@ public class MApp extends BaseApplication{
 
         SDKInitializer.initialize(this);
         //TODO init other things if you want
+
+        EMOptions emOptions = new EMOptions();
+        emOptions.setAcceptInvitationAlways(false);
+        boolean isOk = EaseUI.getInstance().init(getApplicationContext(), emOptions);
+        EMClient.getInstance().setDebugMode(true);
+        LogUtils.d("wl", "-----------环信初始化-----------" + isOk);
     }
 }

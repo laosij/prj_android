@@ -11,6 +11,7 @@ import android.widget.TextView;
 import com.gy.appbase.activity.BaseFragmentActivity;
 import com.gy.appbase.controller.BaseFragmentActivityController;
 import com.gy.appbase.inject.ViewInject;
+import com.hyphenate.easeui.ui.EaseConversationListFragment;
 import com.mapsocial.R;
 import com.mapsocial.constant.Consts;
 import com.mapsocial.controller.MainActivityCtrl;
@@ -81,7 +82,7 @@ public class MainActivity extends BaseFragmentActivity implements View.OnClickLi
         switch (id) {
             case R.id.llyt_chat:
                 mIvChat.setImageResource(R.mipmap.ic_chat_clicked);
-                mController.showFragment(true, null, R.id.flyt_content, ChatFragment.class, null, null);
+                mController.showFragment(true, null, R.id.flyt_content, EaseConversationListFragment.class, null, null);
                 break;
             case R.id.llyt_nearby:
                 mIvNearby.setImageResource(R.mipmap.ic_nearby_clicked);
