@@ -18,79 +18,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="653a07d3-7412-4bd4-9bfb-d3cdfe97896a" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/map/libs/locSDK_6.13.jar" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/map/src/main/jniLibs/armeabi-v7a/liblocSDK6a.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/map/src/main/jniLibs/x86/liblocSDK6a.so" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/map/src/main/jniLibs/x86_64/liblocSDK6a.so" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/baidumapapi_base_v4_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/baidumapapi_cloud_v4_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/baidumapapi_map_v4_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/baidumapapi_radar_v4_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/baidumapapi_search_v4_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/baidumapapi_util_v4_0_0.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_annotations_24_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/support_v4_24_0_0_alpha1.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_5.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_5_javadoc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/universal_image_loader_1_9_5_sources.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/volley.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/BaiduLBS_Android.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/android-support-v4.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/arm64-v8a/libBaiduMapSDK_base_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/arm64-v8a/libBaiduMapSDK_map_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/arm64-v8a/libBaiduMapSDK_util_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/armeabi-v7a/libBaiduMapSDK_base_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/armeabi-v7a/libBaiduMapSDK_map_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/armeabi-v7a/libBaiduMapSDK_util_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/armeabi-v7a/liblocSDK6a.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/armeabi/libBaiduMapSDK_base_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/armeabi/libBaiduMapSDK_map_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/armeabi/libBaiduMapSDK_util_v3_6_1.so" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/easeui/libs/org.apache.http.legacy.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpMessageQueue.java" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/gradle.xml" afterPath="$PROJECT_DIR$/.idea/gradle.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/build.gradle" afterPath="$PROJECT_DIR$/app/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/mapsocial/activity/MainActivity.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mapsocial/activity/MainActivity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/mapsocial/application/MApp.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mapsocial/application/MApp.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app/src/main/java/com/mapsocial/fragment/MapFragment.java" afterPath="$PROJECT_DIR$/app/src/main/java/com/mapsocial/fragment/MapFragment.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/appbase/build.gradle" afterPath="$PROJECT_DIR$/appbase/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/easeui/build.gradle" afterPath="$PROJECT_DIR$/easeui/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map/Readme" afterPath="$PROJECT_DIR$/map/Readme" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map/build.gradle" afterPath="$PROJECT_DIR$/map/build.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/map/src/main/AndroidManifest.xml" afterPath="$PROJECT_DIR$/map/src/main/AndroidManifest.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/settings.gradle" afterPath="$PROJECT_DIR$/settings.gradle" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/String/StringUtils.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/String/StringUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/AudioPlayerConst.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/AudioPlayerConst.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/AudioUtils.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/AudioUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/IAudioPlayer.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/IAudioPlayer.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/Playlist.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/Playlist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/Track.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/Track.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mediaplayer/MediaPlayerService.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mediaplayer/MediaPlayerService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mediaplayer/MediaPlayerServiceBinder.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mediaplayer/MediaPlayerServiceBinder.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/cover/GracenoteCover.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/cover/GracenoteCover.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/event/StatusChangeListener.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/event/StatusChangeListener.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/manage/MpdManage.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/manage/MpdManage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPD.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPD.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPDConnection.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPDConnection.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPDPlaylist.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPDPlaylist.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPDStatus.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPDStatus.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPDStatusMonitor.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MPDStatusMonitor.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/Music.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/Music.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MusicList.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/MusicList.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/PlaylistFile.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/audio/mpdplayer/mpd/PlaylistFile.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/recorder/AudioRecordInfo.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/recorder/AudioRecordInfo.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/recorder/AudioTrackTask.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/recorder/AudioTrackTask.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpClient.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpClient.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpMessage.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpMessage.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpReceiver.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpReceiver.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpSender.java" afterPath="$PROJECT_DIR$/utils/src/main/java/com/gy/utils/tcp/TcpSender.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/easeui/libs/arm64-v8a/liblocSDK6a.so" afterPath="$PROJECT_DIR$/map/src/main/jniLibs/arm64-v8a/liblocSDK6a.so" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/easeui/libs/armeabi/liblocSDK6a.so" afterPath="$PROJECT_DIR$/map/src/main/jniLibs/armeabi/liblocSDK6a.so" />
     </list>
     <ignored path="MapSocial.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -140,22 +69,16 @@
       <file leaf-file-name="MapFragment.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapsocial/fragment/MapFragment.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.35042736">
-              <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+            <state vertical-scroll-proportion="0.16666667">
+              <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#3773#3774#0" expanded="true" />
+                <element signature="e#1729#1757#0" expanded="true" />
+                <element signature="e#2392#2393#0" expanded="true" />
+                <element signature="e#2459#2460#0" expanded="true" />
+                <element signature="e#3264#4429#0" expanded="true" />
+                <element signature="e#4428#4429#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AndroidManifest.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/map/src/main/AndroidManifest.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -168,6 +91,11 @@
     </FindUsagesManager>
   </component>
   <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="ganyue &lt;ganyue126@126.com&gt;" />
+      </list>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="GradleLocalSettings">
@@ -4341,13 +4269,14 @@
         <option value="$PROJECT_DIR$/app/build.gradle" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mapsocial/application/MApp.java" />
         <option value="$PROJECT_DIR$/map/src/main/AndroidManifest.xml" />
+        <option value="$PROJECT_DIR$/app/src/main/AndroidManifest.xml" />
         <option value="$PROJECT_DIR$/app/src/main/java/com/mapsocial/fragment/MapFragment.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="104" />
-    <option name="y" value="12" />
+    <option name="x" value="335" />
+    <option name="y" value="16" />
     <option name="width" value="1574" />
     <option name="height" value="1035" />
   </component>
@@ -4398,17 +4327,6 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView">
-        <subPane>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="MapSocial" />
-              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-        </subPane>
-      </pane>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -4429,12 +4347,23 @@
           </PATH>
         </subPane>
       </pane>
+      <pane id="Scratches" />
       <pane id="Scope">
         <subPane subId="Project Files">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
               <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="AndroidView">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="MapSocial" />
+              <option name="myItemType" value="com.android.tools.idea.navigator.nodes.AndroidViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -4463,7 +4392,7 @@
     <property name="android.project.structure.proportion" value="0.15" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/map/libs/locSDK_6.13.jar" />
     <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="2a19773" />
-    <property name="device.picker.selection" value="E5987B1442523277" />
+    <property name="device.picker.selection" value="4c0949ce" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
     <property name="settings.editor.splitter.proportion" value="0.2" />
     <property name="DEBUGGABLE_DEVICE" value="k_touch-k_touch_tou_ch_2-E5987B1442523277" />
@@ -4755,10 +4684,17 @@
       <option name="number" value="Default" />
       <updated>1470809451488</updated>
     </task>
+    <task id="LOCAL-00001" summary="修改冲突增加定位">
+      <created>1472386859314</created>
+      <option name="number" value="00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1472386859314</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="104" y="12" width="1574" height="1035" extended-state="0" />
+    <frame x="335" y="16" width="1574" height="1035" extended-state="0" />
     <editor active="false" />
     <layout>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -4768,7 +4704,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.40898344" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Android Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39479905" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.34441805" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3286052" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -4805,6 +4741,10 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="修改冲突增加定位" />
+    <option name="LAST_COMMIT_MESSAGE" value="修改冲突增加定位" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <option name="time" value="5" />
@@ -4812,24 +4752,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/appbase/build.gradle">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapsocial/fragment/MapFragment.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#3773#3774#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapsocial/activity/MainActivity.java">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -4953,14 +4875,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.22686026">
-          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -5180,19 +5094,47 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/map/src/main/AndroidManifest.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="1.172811">
           <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_Tools/sdk/sources/android-23/android/hardware/Sensor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.65384614">
+          <caret line="80" column="31" selection-start-line="80" selection-start-column="31" selection-end-line="80" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/src/main/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6336405">
+          <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://D:/Android_Tools/sdk/sources/android-23/android/hardware/SensorManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.33208954">
+          <caret line="812" column="31" selection-start-line="812" selection-start-column="31" selection-end-line="812" selection-end-column="31" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/com/mapsocial/fragment/MapFragment.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.35042736">
-          <caret line="77" column="36" selection-start-line="77" selection-start-column="36" selection-end-line="77" selection-end-column="36" />
+        <state vertical-scroll-proportion="0.16666667">
+          <caret line="80" column="29" selection-start-line="80" selection-start-column="29" selection-end-line="80" selection-end-column="29" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#3773#3774#0" expanded="true" />
+            <element signature="e#1729#1757#0" expanded="true" />
+            <element signature="e#2392#2393#0" expanded="true" />
+            <element signature="e#2459#2460#0" expanded="true" />
+            <element signature="e#3264#4429#0" expanded="true" />
+            <element signature="e#4428#4429#0" expanded="true" />
           </folding>
         </state>
       </provider>

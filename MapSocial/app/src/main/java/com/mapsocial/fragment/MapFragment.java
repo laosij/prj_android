@@ -1,5 +1,10 @@
 package com.mapsocial.fragment;
 
+import android.content.Context;
+import android.hardware.Sensor;
+import android.hardware.SensorEvent;
+import android.hardware.SensorEventListener;
+import android.hardware.SensorManager;
 import android.os.Bundle;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -21,7 +26,6 @@ import com.baidu.mapapi.model.LatLng;
 import com.gy.appbase.controller.BaseFragmentActivityController;
 import com.gy.appbase.fragment.BaseFragment;
 import com.gy.appbase.inject.ViewInject;
-import com.gy.utils.log.LogUtils;
 import com.mapsocial.R;
 import com.mapsocial.constant.Consts;
 import com.mapsocial.controller.MainActivityCtrl;
@@ -46,6 +50,32 @@ public class MapFragment extends BaseFragment{
         mTvTitle.setText(getString(R.string.app_name));
 
         initMap();
+        startLocationClient();
+        registSensor();
+    }
+
+    @Override
+    public void onHiddenChanged(boolean hidden) {
+        if (hidden) {
+            stopLocationClient();
+            unregistSensor();
+        } else {
+            startLocationClient();
+            registSensor();
+        }
+    }
+
+
+    /**************************** 百度地图位置服务 ************************************/
+    private LocationClient mLocationClient = null;
+
+    private void startLocationClient () {
+        if (mLocationClient == null) initMap();
+        mLocationClient.start();
+    }
+
+    private void stopLocationClient () {
+        if (mLocationClient != null) mLocationClient.stop();
     }
 
     private void initMap () {
@@ -57,19 +87,13 @@ public class MapFragment extends BaseFragment{
 
         //设置位置监听
         map.setMyLocationEnabled(true);
-        LocationClient mLocationClient = new LocationClient(mActivity);
+        mLocationClient = new LocationClient(mActivity);
         mLocationClient.registerLocationListener(locationListener);
         LocationClientOption locationClientOption = new LocationClientOption();
         locationClientOption.setOpenGps(true);
         locationClientOption.setCoorType("bd09ll");
         locationClientOption.setScanSpan(1000);
         mLocationClient.setLocOption(locationClientOption);
-        mLocationClient.start();
-
-        //设置地图缩放级别和地图俯视角
-        MapStatus mapStatus = new MapStatus.Builder(map.getMapStatus()).overlook(-30).zoom(18).build();
-        MapStatusUpdate mapStatusUpdate = MapStatusUpdateFactory.newMapStatus(mapStatus);
-        map.animateMapStatus(mapStatusUpdate);
     }
 
     private boolean isFirstLoc = true;
@@ -81,7 +105,7 @@ public class MapFragment extends BaseFragment{
             MyLocationData locData = new MyLocationData.Builder()
                     .accuracy(bdLocation.getRadius())
                     // 此处设置开发者获取到的方向信息，顺时针0-360
-                    .direction(100)
+                    .direction(orentation)
                     .latitude(bdLocation.getLatitude())
                     .longitude(bdLocation.getLongitude())
                     .build();
@@ -92,12 +116,62 @@ public class MapFragment extends BaseFragment{
                 isFirstLoc = false;
                 LatLng ll = new LatLng(bdLocation.getLatitude(),
                         bdLocation.getLongitude());
-                MapStatus.Builder builder = new MapStatus.Builder();
-                builder.target(ll);
-                map.animateMapStatus(MapStatusUpdateFactory.newMapStatus(builder.build()));
+                //设置地图缩放级别和地图俯视角
+                MapStatus mapStatus = new MapStatus.Builder(map.getMapStatus())
+                        .overlook(-30).zoom(18).target(ll).build();
+                MapStatusUpdate mapStatusUpdate = MapStatusUpdateFactory.newMapStatus(mapStatus);
+                map.animateMapStatus(mapStatusUpdate);
             }
         }
     };
+
+    /**************************** 方将监听和计算 ************************************/
+    private void registSensor () {
+        SensorManager sensorManager = (SensorManager) mActivity.getSystemService(Context.SENSOR_SERVICE);
+        Sensor accSensor = sensorManager.getDefaultSensor(Sensor.TYPE_ACCELEROMETER);
+        Sensor magSensor = sensorManager.getDefaultSensor(Sensor.TYPE_MAGNETIC_FIELD);
+        sensorManager.registerListener(sensorEventListener, accSensor, SensorManager.SENSOR_DELAY_NORMAL);
+        sensorManager.registerListener(sensorEventListener, magSensor, SensorManager.SENSOR_DELAY_NORMAL);
+    }
+
+    private void unregistSensor () {
+        SensorManager sensorManager = (SensorManager) mActivity.getSystemService(Context.SENSOR_SERVICE);
+        sensorManager.unregisterListener(sensorEventListener);
+    }
+
+    private float orentation = 0;
+    private long lastCalculateTime = 0;
+    private float[] accValues = new float[3];
+    private float[] magValues = new float[3];
+    private SensorEventListener sensorEventListener = new SensorEventListener() {
+        @Override
+        public void onSensorChanged(SensorEvent event) {
+            if (event.sensor.getType() == Sensor.TYPE_ACCELEROMETER) {
+                accValues = event.values;
+            } else if (event.sensor.getType() == Sensor.TYPE_MAGNETIC_FIELD) {
+                magValues = event.values;
+            }
+
+            long currentTime = System.currentTimeMillis();
+            if (currentTime - lastCalculateTime > 500) {
+                calculateOrentation();
+                lastCalculateTime = currentTime;
+            }
+        }
+
+        @Override
+        public void onAccuracyChanged(Sensor sensor, int accuracy) {
+
+        }
+    };
+
+    private void calculateOrentation () {
+        float[] values = new float[3];
+        float[] matrix = new float[9];
+        SensorManager.getRotationMatrix(matrix, null, accValues, magValues);
+        SensorManager.getOrientation(matrix, values);
+        orentation = (float) Math.toDegrees(values[0]);
+    }
 
     @Override
     protected BaseFragmentActivityController instanceController() {
