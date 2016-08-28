@@ -53,6 +53,7 @@ public class MediaPlayerService extends Service implements IAudioPlayer {
 
     @Override
     public int onStartCommand(Intent intent, int flags, int startId) {
+        if (intent == null) return START_STICKY;
         int cmd = intent.getIntExtra(AudioPlayerConst.PlayerConsts.Keys.KEY_CMD_I, AudioPlayerConst.PlayerConsts.Cmds.CMD_UNKNOWN);
 
         switch (cmd) {
@@ -104,6 +105,14 @@ public class MediaPlayerService extends Service implements IAudioPlayer {
         }
         this.playlist = playlist;
         startAfterPrepare = false;
+        return preparePlayer();
+    }
+
+    @Override
+    public boolean skipToPosition(int pos) {
+        if (playlist == null) return false;
+        playlist.setCurrentPos(pos);
+        startAfterPrepare = true;
         return preparePlayer();
     }
 

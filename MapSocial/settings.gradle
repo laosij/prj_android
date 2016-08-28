@@ -1,4 +1,5 @@
-include ':app', ':easeui'
+include ':app'
 include ':map'
 include ':appbase'
 include ':utils'
+include ':easeui'

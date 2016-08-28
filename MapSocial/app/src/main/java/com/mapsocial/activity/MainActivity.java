@@ -15,7 +15,6 @@ import com.hyphenate.easeui.ui.EaseConversationListFragment;
 import com.mapsocial.R;
 import com.mapsocial.constant.Consts;
 import com.mapsocial.controller.MainActivityCtrl;
-import com.mapsocial.fragment.ChatFragment;
 import com.mapsocial.fragment.MapFragment;
 import com.mapsocial.fragment.MineFragment;
 

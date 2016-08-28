@@ -1,8 +1,5 @@
 package com.mapsocial.application;
 
-import android.graphics.Typeface;
-import android.util.Log;
-
 import com.baidu.mapapi.SDKInitializer;
 import com.gy.appbase.application.BaseApplication;
 import com.gy.utils.log.LogUtils;
@@ -22,13 +19,15 @@ public class MApp extends BaseApplication{
     public void onCreate() {
         super.onCreate();
 
+        //百度地图初始化
         SDKInitializer.initialize(this);
-        //TODO init other things if you want
 
+        //环信初始化
         EMOptions emOptions = new EMOptions();
         emOptions.setAcceptInvitationAlways(false);
         boolean isOk = EaseUI.getInstance().init(getApplicationContext(), emOptions);
-        EMClient.getInstance().setDebugMode(true);
         LogUtils.d("wl", "-----------环信初始化-----------" + isOk);
+
+        //TODO init other things if you want
     }
 }

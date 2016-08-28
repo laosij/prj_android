@@ -2,7 +2,8 @@ apply plugin: 'com.android.library'
 
 android {
     compileSdkVersion 23
-    buildToolsVersion "23.0.1"
+    buildToolsVersion '23.0.2'
+    useLibrary 'org.apache.http.legacy'
 
     defaultConfig {
         minSdkVersion 9
@@ -46,12 +47,11 @@ android {
 dependencies {
     //release时需要把hyphenatechatsdk的依赖注释掉，sdk已经被打成jar包放在libs底下
     //compile project(':hyphenatechatsdk')
-    compile files('libs/android-support-v4.jar')
-    provided files('libs/BaiduLBS_Android.jar')
+    provided 'com.android.support:support-v4:24.0.0-alpha1'
     compile files('libs/glide-3.6.1.jar')
-    provided files('libs/google-play-services.jar')
+    compile files('libs/google-play-services.jar')
     compile files('libs/HwPush_SDK_V2705_nomap.jar')
     compile files('libs/hyphenatechat_3.1.4.jar')
     compile files('libs/MiPush_SDK_Client_2_2_19.jar')
-    provided files('libs/org.apache.http.legacy.jar')
+    compile project(':map')
 }
