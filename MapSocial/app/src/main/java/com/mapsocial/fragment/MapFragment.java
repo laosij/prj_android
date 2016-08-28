@@ -173,6 +173,12 @@ public class MapFragment extends BaseFragment{
         orentation = (float) Math.toDegrees(values[0]);
     }
 
+    /**************************** TODO 添加罗盘 ************************************/
+
+    /**************************** TODO 添加附近 ************************************/
+
+    /**************************** TODO 附近详情 ************************************/
+
     @Override
     protected BaseFragmentActivityController instanceController() {
         return new MainActivityCtrl(mActivity);
